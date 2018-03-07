@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="telephone=no"name=format-detection>
+<title>ProSmile.KZ. Косметическое отбеливание зубов</title>
+<style type="text/css">
+.wrapper {
+margin:auto;
+height: 100%;    
+}
+
+.header {
+padding-top: 20px;
+padding-bottom: 20px;
+position: relative;
+background: #fff;
+}
+
+p#logo {   
+
+font-family: 'Open Sans Bold';
+font-size: 1.5rem;
+font-weight: 700;   
+color: #26358c;
+text-align: center;   
+display: inline-block;
+padding-bottom: 15px;    
+}
+
+#description {
+margin-bottom: 15px;
+font-size: 16px;
+}
+p.address{
+box-sizing: border-box;
+font-family: 'Open Sans Semibold'; 
+font-size: 18px; 
+text-align: center;
+padding-bottom: 15px;
+color: #000;    
+}
+a.instagram {
+background-image: url(../img/social.png);
+background-position: center center;
+background-repeat: no-repeat;
+display: inline-block;
+height: 38px;
+width: 38px;
+background-size: contain;
+text-align: center;
+margin-top: 10px;
+border-radius: 50%;
+border:1px solid transparent;     
+}
+a.instagram:hover{
+border:1px solid #26358c; 
+}
+a.phone {
+color: #000;
+display: block;
+padding-bottom: 15px;
+font-size: 20px;
+display: block;
+float: right;
+}
+a.callback
+{
+font-size: 18px;
+font-family: 'Open Sans Semibold'; 
+color: #fff;
+background-color: #26358c;
+display: block; 
+width: 250px;
+padding:10px;
+float: right; 
+
+}
+
+.firstscreen{position:relative;
+min-height:500px;
+background:url(img/main.jpg) no-repeat;
+background-size:cover;
+background-position:center center;
+padding-bottom: 30px;
+}
+
+h1.offer {
+color: #fff;
+font-size: 36px;
+margin-top: 20%;
+line-height: 48px;
+}
+
+p.result {
+color: #fff;
+font-size: 28px;
+margin: 20px 0;
+line-height: 36px;  
+}
+
+.more_btn {
+margin:auto!important;
+text-align: center;
+display: block;
+width: 70%;    
+padding: 10px 40px;
+margin-bottom: 20px;   
+text-align: center;
+color: #fff;
+border: none;
+border-radius: 3px;
+background: #26358c;
+}
+
+
+.more_btn:hover,
+a.callback:hover {
+color:#fff;
+background-color: #111b50;
+}
+
+input.mains {
+width: 70%!important;
+display: block;
+margin:auto;
+margin-top: 22px;
+}
+
+#main_form {
+background-color: rgb(255, 255, 255);
+width: 380px;
+max-height: 450px;  
+float: right;
+padding-left: 0;
+padding-right: 0;
+border-radius: 10px;    
+margin-top: 15%;
+padding-bottom: 20px; 
+}
+
+
+
+
+
+</style>
+
+    <!--  -->
+    
+  </head>
+
+<body>
+<div class="wrapper">
+<!-- фиксированная шапка сайта -->
+<header id= "fixedheader" class="header">
+<div class="container text-center">
+  <div class="col-md-12">        
+    <div class="col-md-4 col-sm-12 col-xs-12 ">
+      <p id="logo"> ProSmile.KZ <br></p> 
+      <p id="description">Косметическое отбеливание зубов </p>     
+    </div>
+
+    <div class="col-md-4 col-sm-12  col-xs-12">
+      
+        <p class="address"> г.Алматы ул.Клочкова 119/57</p>
+      
+
+        <div class="social">
+          <a href="https://" target="_blank" class="instagram"></a> 
+           
+       </div>         
+    </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12 b1">           
+          <div class="call">
+            <a class="phone" href="tel:77011018961"> +7(701)101-89-61</a>             
+            <!-- <img class="phone_icon" src="img/tel.png" alt="Иконка"> -->
+            <a class="callback" data-target=".modal_callback" data-toggle="modal" >Связаться с нами</a>
+      </div>
+     </div>
+  </div><!-- 12col-->
+</div> <!-- container-->
+</header>
+
+
+<!-- Первый экран с формой  -->
+<div id ="firstscreen" class="container-fluid firstscreen clearfix">
+<div class="container">
+<div class="col-md-12">
+<div class="col-md-6">
+<h1 class="offer">Бережное отбеливание зубов по Корейской технологии.</h1> 
+<p class="result">Видимый результат до 12 тонов за одно посещение. </p>
+</div>
+<div class="col-md-6">
+<div id="main_form">
+  <form class="form-horizontal"  >
+    <p class="sign_now">Получи 10 Топ советов по отбеливанию <br>зубов в домашних условиях </p>  
+
+    <div class="form-group"> 
+      <div class="text-center">
+        <input type="text" class="form-control mains" name= "name"  placeholder="Ваше имя" required="required">
+      </div>
+    </div>
+    <div class="form-group">                
+      <div class="text-center">
+        <input type="phone" class="form-control phones mains" name= "phone"  placeholder="Ваш телефон" required="required">
+      </div>
+    </div>
+    <div class="form-group">         
+        <button  id="get_advices" class="more_btn ">Получить</button>         
+    </div>
+    </form>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Блок с преимуществами  -->
+<div class="container-fluid"> 
+<div class="container">
+<div class="row">     
+	<div class="col-md-12">
+    <p class="section_title">Преимущества корейской технологии отбеливания</p>
+		<div class="col-md-4"> 
+			<img class="adv" src="img/icon1.png" alt="Преимущества">
+			 <p class="adv_text"> <span class="blue_text">Безопаснее зубной пасты</span><br>
+Косметическое отбеливание не воздействует на эмаль, в отличии от отбеливающих паст с абразивными веществами. Наше отбеливание эффективно и безопасно для зубов! </p>
+		</div>
+		<div class="col-md-4 "> 
+			<img class="adv" src="img/icon2.png" alt="Преимущества"> 
+			<p  class="adv_text"><span class="blue_text">Эффективное отбеливание</span><br>
+Мы не просто очищаем поверхность зубов,
+а возвращаем их природную белизну, обесцвечивая глубокие отложения. Полученный результат сохраняется до полугода! </p>					
+		</div>
+		<div class="col-md-4  "> 
+			<img class="adv" src="img/icon3.png" alt="Преимущества"> 
+      <p class="adv_text"><span class="blue_text">Видимый результат сразу</span><br>
+Отбеливающие полоски и домашние наборы используют схожую технологию, но с ними эффекта придется ждать несколько недель.
+А у нас вы увидите результат сразу!</p>		
+		</div>
+  </div>
+</div> <!-- row -->
+
+
+
+<div class="row"> 
+	<div class="col-md-12">
+  			<div class="col-md-4 "> 
+  			     <img class="adv" src="img/icon4.png" alt="Преимущества">
+  				    <p class="adv_text"><span class="blue_text">Доступнее чем в стоматологии</span><br>
+Косметическое отбеливание не требует сложного оборудования и дорогостоящих расходных материалов. При этом результат сравним с отбеливанием у стоматолога!
+</p>
+  			</div>
+			
+		     <div class="col-md-4 "> 
+      				<img class="adv" src="img/icon5.png" alt="Преимущества">
+      				 <p class="adv_text"><span class="blue_text">Гарантия качества</span><br> Мы уверены в эффективности нашей технологии и гарантируем своим клиентам заметный результат за первое посещение. В противном случае мы вернем вам деньги!</p>
+		     </div>
+
+  			   <div class="col-md-4"> 
+  				    <img class="adv" src="img/icon6.png" alt="Преимущества">
+  				    <p class="adv_text"><span class="blue_text">Сохранения эффекта</span> <br> Ваша улыбка сохранится белоснежной до полугода, при соблюдении белой диеты в течении первых суток и правильном уходе. </p>					
+  			   </div>
+  	</div>
+ </div>
+</div>
+</div>
+
+<div class="container-fluid" id="our_advantages"> 
+<div class="container">
+<div class="row">     
+  <div class="col-md-12">
+     <p class="section_title">Пакетное решение</p>
+    <div class="col-md-4">          
+       <p class="adv_text"><span class="blue_text"> COMPLEX</span><br>
+          Комплексное решение<br>
+          Результат 10-12 тонов<br>
+          С укрепление эмали<br>
+          60 мин<br>
+          20000 тг 
+        </p>
+    </div>
+    <div class="col-md-4"> 
+     
+      <p  class="adv_text"><span class="blue_text">MAXIMUM</span><br>
+          Максимальное отбеливание<br>
+          Результат 8-10 тонов<br>
+          Глубокое отбеливание<br>
+          45 мин<br>
+          15000 тг
+        </p>          
+    </div>
+    <div class="col-md-4 "> 
+    
+      <p class="adv_text"><span class="blue_text">DOUBLE</span><br>
+        Двойное отбеливание<br>
+        Результат 6-8 тонов<br>
+        Экспресс-процедура<br>
+        30 мин<br>
+        10000 тг
+      </p>   
+    </div>
+  </div>
+</div> <!-- row -->
+</div>
+</div>
+
+<div class="container-fluid second_screen"> 
+<div class="container">
+   <p class="section_title">Отзывы клиентов</p>
+ 		<div class="row">
+ 			<div class="col-lg-12 about_center">         
+       		<div class="col-md-6">
+           <div class="video_container">
+<video clas="video" src="review1.mp4"  controls></video>   
+</div>
+</div>
+<div class="col-md-6"> 
+<div class="video_container">
+<video clas="video" src="review2.mp4" controls></video>   
+</div>
+</div>
+</div> 
+</div>
+</div>
+
+
+<div class="cd-testimonials-wrapper cd-container">
+<ul class="cd-testimonials">
+ <li class="cd-testimonials-item">
+    <p>Всем огромный привет! Хочу с вами поделиться beauty-советом, который сама попробывала. Для меня очень важна красивая улыбка. Много времени и внимания всегда уделяю зубкам. Так вот решила попробывать эстетическое отбеливание. Очень переживала,что зубки станут гиперчувствительными после процедуры.
+    Но во-первых сама процедура очень приятная, сидишь в комфортном кресле,отдыхаешь и за один сеанс реально получаешь тот эффект, которого в домашних условиях не добиться. В общем,я очень довольна. И правда смело рекомендую ProSmile. Улыбайтесь всем почаще и наслаждайтесь своей улыбкой</p>
+    
+    <div class="cd-author">
+      <img src="img/avatar1.jpg" alt="Клиент">
+      <ul class="cd-author-info">
+        <li>Яна Бобрыка</li>             
+      </ul>
+    </div> <!-- cd-author -->
+  </li>
+
+<li class="cd-testimonials-item">
+    <p>Огромное спасибо моей зубной фее,за профессиональную работу и отличный результат!
+    </p>
+    
+    <div class="cd-author">
+      <img src="img/avatar2.jpg" alt="Клиент">
+      <ul class="cd-author-info">
+        <li>Адиль Хейнс</li>
+        <li>бьюти блогер</li>
+      </ul>
+    </div> <!-- cd-author -->
+  </li>
+
+<li class="cd-testimonials-item">
+    <p>Огромное вам спасибо за мои зубки еще раз,я очень люблю горячий чай и переживала, что эмаль станет реагировать на горячее и холодное. Но ни какой чувствительности. Зубки не окрашиваются и не темнеют. Я в восторге. Это абсолютно безболезненно,что для меня так важно.
+    </p>
+    
+    <div class="cd-author">
+      <img src="img/avatar3.jpg" alt="Клиент">
+      <ul class="cd-author-info">
+        <li>Аружан Куатова</li>
+        <li>студентка</li>
+      </ul>
+    </div> <!-- cd-author -->
+  </li> 
+  </ul>
+  </div> <!-- cd-author -->
+  </li>    
+</ul> <!-- cd-testimonials --> 
+</div> <!-- cd-testimonials-wrapper -->
+
+
+
+
+
+
+<footer class="container-fluid">
+<div class="container">
+	<div class="row">
+   		<div class="col-md-12">
+			<div class="col-md-8">
+				<p class="copy">&copy; ProSmile.KZ</p>
+			</div>
+			<div class="col-md-4">
+				 <a class="phone" href="tel:77011018961"> +7(701)101-89-61</a>
+                       
+          		<a id="callback2" data-target=".modal_callback" data-toggle="modal" >Заказать звонок</a>              	
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
+
+
+<div class="modal fade modal_callback" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-body modal-call-body">
+      <p class="titles service_group">
+        Заказ обратного звонка
+      </p>
+             
+  <input type="text" class="forms-control" placeholder="Ваше имя">
+  <input type="text" class="forms-control" placeholder="Ваш телефон">
+  <button type="submit" name="formFooter" class="more_btn">Заказать</button>
+        <div class="clearfix">  </div>
+ 
+
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- модалка ответ "Ваша заявка отправлена"-->
+<div class="modal fade modal_otvet" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-body">
+      <div class="titles">
+        Ваша заявка<br>отправлена
+      </div>
+      <div class="desks">
+        Наши менеджеры свяжутся с Вами<br>в ближайшее время
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+</div>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">    
+<link rel="stylesheet" href="css/style.css">  
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<link rel="stylesheet" media="screen" href="css/fancybox.css">  
+<link rel="stylesheet" media="screen" href="css/jquery.bxslider.css">
+  <script src="js/jquery-3.1.1.min.js" defer></script> 
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" defer></script> 
+  <script src="js/review.js" defer></script> 
+  <script src="js/custom.js" defer></script> 
+ 
+  </body>
+</html>
+
+
+
