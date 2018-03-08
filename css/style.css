@@ -31,10 +31,6 @@
      font-weight: normal;
 }
 
-
-
-
-
 /* Сброс стилей */
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
@@ -50,24 +46,12 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
     font-size: 100%;
     vertical-align: baseline;
 }
-article,  aside,  details,  figcaption,  figure,  footer,  header,  hgroup,  menu,  nav, 
+/*article,  aside,  details,  figcaption,  figure,  footer,  header,  hgroup,  menu,  nav, 
 section {
     display: block;
 }
+*/
 
-html {
-    height: 100%;   
-    margin:0;
-    padding: 0;
-    overflow-x: hidden;
-}
-
-body {
-        height: 100%;
-        font-family: "Open Sans Regular";
-        color: #555;
-        
-}
 
 
 a   {
@@ -92,6 +76,10 @@ li {
    }
 
 
+
+
+
+
 /*Стили шапки сайта */
 
 .section_title {
@@ -109,6 +97,39 @@ margin-bottom: 10px;
 font-size: 19px;
 font-family: "Open Sans Bold";
 }
+
+.price {
+color: #fff;
+display: block;
+margin-bottom: 10px;
+font-size: 22px;
+font-family: "Open Sans Bold";  
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.short_desc {
+    display: block;
+ color: #b1bbf4;  
+ margin-bottom: 15px; 
+ margin-top: 15px;
+}
+.long_desc {
+    line-height: 29px;
+    font-size: 17px;
+
+}
+
+
+.white_text {
+color: fff;
+display: block;
+margin-bottom: 5px;
+font-size: 22px;
+font-family: "Open Sans Bold"; 
+text-transform: uppercase;  
+}
+
+
 
 .modal-href
 {
@@ -322,6 +343,13 @@ video {
     
 }
 
+.service {
+background-color:#26358c;
+width: 80%;
+color:#fff;
+margin:auto;
+margin-top: 30px;
+}
 
 
 
@@ -401,7 +429,7 @@ video {
   margin-bottom: 1em;
   padding: 0 14px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .cd-testimonials p {
     font-size: 16px;
     font-size: 1.375rem;
@@ -423,6 +451,15 @@ p.result {
     line-height: 22px;
     
 }
+a.consult {
+ font-size: 14px;
+    width: 280px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+
 }
 @media only screen and (min-width: 1170px) {
   .cd-testimonials p {
@@ -728,6 +765,23 @@ p.result {
   transform: rotate(-45deg);
 }
 
+a.consult {
+font-size: 16px;
+display: block;
+
+font-family: 'Open Sans Semibold'; 
+color: #fff;
+background-color: #26358c;
+display: block; 
+width: 380px;
+
+border-radius: 20px;
+padding:20px;
+margin:auto; 
+margin-top: 40px;
+margin-bottom: 30px; 
+}
+
 
 .order_backcall {
 font-size: 18px;
@@ -755,6 +809,7 @@ display: block;
 width: 250px;
 padding:10px;
 float: right; 
+border-radius: 20px;
 }
 
 footer a.callback2:hover {

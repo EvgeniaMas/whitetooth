@@ -5,6 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta content="telephone=no"name=format-detection>
+<meta content="Отбеливание зубов по корейской технологии" name="description">
+<meta content="зубы, отбеливание, здоровье зубов, корейская технология, Алматы" name="keywords">
 <title>ProSmile.KZ. Косметическое отбеливание зубов</title>
 <style type="text/css">
 .wrapper {
@@ -75,11 +77,16 @@ display: block;
 width: 250px;
 padding:10px;
 float: right; 
+border-radius: 20px;
 }
+
+
+
+
 
 .firstscreen{position:relative;
 min-height:500px;
-background:url(img/main9.jpg) no-repeat;
+background:url(img/main.jpg) no-repeat;
 background-size:cover;
 background-position:left top;
 padding-bottom: 30px;
@@ -109,11 +116,12 @@ margin-bottom: 20px;
 text-align: center;
 color: #fff;
 border: none;
-border-radius: 3px;
+border-radius: 20px;
 background: #26358c;
 }
 .more_btn:hover,
-a.callback:hover {
+a.callback:hover,
+a.consult:hover {
 color:#fff;
 background-color: #111b50;
 }
@@ -166,7 +174,7 @@ margin:auto;
     <div class="col-md-4 col-sm-12  col-xs-12">      
         <p class="address"> г.Алматы ул.Клочкова 119/57</p>      
         <div class="social">
-          <a href="https://www.instagram.com/prosmile_kz/" target="_blank" class="instagram"></a>          
+          <a href="https://www.instagram.com/prosmile.kz/" target="_blank" class="instagram"></a>          
        </div>         
     </div>
       <div class="col-md-4 col-sm-12 col-xs-12 b1">           
@@ -191,7 +199,7 @@ margin:auto;
 </div>
 <div class="col-md-5">
 <div id="main_form">
-  <form class="form-horizontal"  >
+  <form class="form-horizontal" action="advice.php" method="POST" >
     <p class="sign_now">Получи 10 Топ советов по отбеливанию <br>зубов в домашних условиях </p>  
 
     <div class="form-group"> 
@@ -205,7 +213,7 @@ margin:auto;
       </div>
     </div>
     <div class="form-group">         
-        <button  id="get_advices" class="more_btn ">Получить</button>         
+        <button type="submit" id="get_advices" class="more_btn ">Получить</button>         
     </div>
     </form>
   </div>
@@ -228,14 +236,12 @@ margin:auto;
 		<div class="col-md-4 "> 
 			<img class="advantage_icon" src="img/icon2.png" alt="Преимущества"> 
 			<p  class="adv_text"><span class="blue_text">Эффективное отбеливание</span><br>
-Мы не просто очищаем поверхность зубов,
-а возвращаем их природную белизну, обесцвечивая глубокие отложения. Полученный результат сохраняется до полугода! </p>					
+Мы не просто очищаем поверхность зубов, а возвращаем их природную белизну, обесцвечивая глубокие отложения. Полученный результат сохраняется до полугода! </p>					
 		</div>
 		<div class="col-md-4  "> 
 			<img class="advantage_icon" src="img/icon3.png" alt="Преимущества"> 
       <p class="adv_text"><span class="blue_text">Видимый результат сразу</span><br>
-Отбеливающие полоски и домашние наборы используют схожую технологию, но с ними эффекта придется ждать несколько недель.
-А у нас вы увидите результат сразу!</p>		
+Отбеливающие полоски и домашние наборы используют схожую технологию, но с ними эффекта придется ждать несколько недель. А у нас вы увидите результат сразу!</p>		
 		</div>
   </div>
 </div> <!-- row -->
@@ -268,40 +274,44 @@ margin:auto;
 <div class="container-fluid" id="our_advantages"> 
 <div class="container">
 <div class="row">     
-  <div class="col-md-12">
-     <p class="section_title">Пакетное решение</p>
-    <div class="col-md-4">          
-       <p class="adv_text"><span class="blue_text"> COMPLEX</span><br>
-          Комплексное решение<br>
-          Результат 10-12 тонов<br>
+  <div class="col-md-12">     
+    <div class="col-md-4">  
+    <div class="service">        
+       <p class="adv_text"><span class="white_text"> COMPLEX</span>
+          <span class="short_desc">Комплексное решение</span><br>
+          <span class="long_desc">Результат 10-12 тонов<br>
           С укрепление эмали<br>
-          60 мин<br>
-          20000 тг 
+          60 мин</span><br>
+          <span class="price">20000 тг </span>
         </p>
     </div>
+  </div>
     <div class="col-md-4"> 
-     
-      <p  class="adv_text"><span class="blue_text">MAXIMUM</span><br>
-          Максимальное отбеливание<br>
-          Результат 8-10 тонов<br>
+      <div class="service">        
+       <p class="adv_text"><span class="white_text">MAXIMUM</span>
+          <span class="short_desc">Максимальное отбеливание</span><br>
+          <span class="long_desc">Результат 8-10 тонов<br>
           Глубокое отбеливание<br>
-          45 мин<br>
-          15000 тг
-        </p>          
+          45 мин</span><br>
+          <span class="price">15000 тг</span>
+        </p> 
+        </div>         
     </div>
     <div class="col-md-4 "> 
-    
-      <p class="adv_text"><span class="blue_text">DOUBLE</span><br>
-        Двойное отбеливание<br>
-        Результат 6-8 тонов<br>
+     <div class="service">        
+       <p class="adv_text"><span class="white_text">DOUBLE</span>
+        <span class="short_desc">Двойное отбеливание</span><br>
+        <span class="long_desc">Результат 6-8 тонов<br>
         Экспресс-процедура<br>
-        30 мин<br>
-        10000 тг
+        30 мин</span><br>
+        <span class="price">10000 тг</span>
       </p>   
     </div>
   </div>
+  </div>
 </div> <!-- row -->
 </div>
+<a class="consult" data-target=".modal_consult" data-toggle="modal" >Запишись на бесплатную консультацию</a>
 </div>
 
 <div class="container-fluid second_screen"> 
@@ -389,7 +399,7 @@ margin:auto;
 </div>
 </footer>
 
-
+<form action="mail.php" method="POST">
 <div class="modal fade modal_callback" tabindex="-1" role="dialog">
 <div class="modal-dialog" role="document">
   <div class="modal-content">
@@ -406,49 +416,56 @@ margin:auto;
     <div class="form-group">                
       <div class="text-center">
         <input type="phone" class="form-control phones mains" name= "phone"  placeholder="Ваш телефон" required="required">
+        <input name="purpose" value="обратный звонок" type="hidden" />
       </div>
     </div>
     <div class="form-group">         
-        <button  id="get_advices" class="more_btn ">Получить</button>         
+        <button type="submit" id="get_advices" class="more_btn ">Заказать</button>         
     </div>
-             
-  <!-- <input type="text" class="forms-control" placeholder="Ваше имя">
-  <input type="text" class="forms-control" placeholder="Ваш телефон">
-  <button type="submit" name="formFooter" class="more_btn">Заказать</button> -->
-        <div class="clearfix">  </div>
- 
-
+   <div class="clearfix">  </div>
     </div>
   </div>
 </div>
 </div>
+</form>
 
-<!-- модалка ответ "Ваша заявка отправлена"-->
-<div class="modal fade modal_otvet" tabindex="-1" role="dialog">
-<div class="modal-dialog" role="document">
-  <div class="modal-content">
+<form action="mail.php" method="POST"> 
+ <div class="modal fade modal_consult" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-    <div class="modal-body">
-      <div class="titles">
-        Ваша заявка<br>отправлена
+      <div class="modal-body modal-call-body">
+      <p class="order_backcall">
+        Заказ консультации
+      </p>
+      <div class="form-group"> 
+      <div class="text-center">
+        <input type="text" class="form-control mains" name= "name"  placeholder="Ваше имя" required="required">
       </div>
-      <div class="desks">
-        Наши менеджеры свяжутся с Вами<br>в ближайшее время
+    </div>
+    <div class="form-group">                
+      <div class="text-center">
+        <input type="phone" class="form-control phones mains" name= "phone"  placeholder="Ваш телефон" required="required">
+         <input name="purpose" value="консультацию" type="hidden" />
       </div>
+    </div>
+    <div class="form-group">         
+        <button type="submit" id="get_advices" class="more_btn ">Заказать</button>         
+    </div>
+   <div class="clearfix">  </div>
     </div>
   </div>
 </div>
 </div>
+</form>
 
 
-
-</div>
 <!-- Bootstrap -->
 <link rel="stylesheet" href="css/bootstrap.css">    
 <link rel="stylesheet" href="css/style.css">  
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<link rel="stylesheet" media="screen" href="css/fancybox.css">  
-<link rel="stylesheet" media="screen" href="css/jquery.bxslider.css">
+<!-- <link rel="stylesheet" media="screen" href="css/fancybox.css">  
+<link rel="stylesheet" media="screen" href="css/jquery.bxslider.css"> -->
   <script src="js/jquery-3.1.1.min.js" defer></script> 
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" defer></script> 
